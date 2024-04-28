@@ -1,12 +1,12 @@
 # Project-1: Multi Tier Web Application Setup Locally
 
-Before you start automating something, it's crucial to learn how to do it by hand first. This helps you understand it better and find any problems or ways to make it better. When you're good at doing it manually, you can then make it automatic, and it will work better in the end.
+This project provides resources to set up a multi-tier web application stack both manually and automatically. It's crucial to understand the manual process before automating it, as it helps in identifying potential issues and optimizing the process.
 
 In this project, I have given all the resources to setup Multi Tier Web Application stack:
   1. Manually
   2. Automated
 
-* Prerequisites
+** Prerequisites
   - Oracle VM Virtual Box
   - Git bash
   - Vagrant
@@ -18,7 +18,7 @@ In this project, I have given all the resources to setup Multi Tier Web Applicat
   - Memcached
   - Rabbitmq
 
-* Database - Here, we used Mysql DB 
+*** Database - Here, we used Mysql DB 
   - /src/main/resources/db_backup.sql
   - db_backup.sql file is a mysql dump file. We have to import this dump to mysql db server
   - > mysql -u <user_name> -p<password> accounts < db_backup.sql
@@ -34,8 +34,7 @@ In this project, I have given all the resources to setup Multi Tier Web Applicat
 # Manual Setup
 --------------------------------------------------
 * Application stack setup
-  - The detailed setup steps are in the AppStackSetup.txt file. Go through the steps and execute it one by one.
-  - Path -> vagrant/Manual_provisioning/AppStackSetup.txt
+- The detailed setup steps are provided in the AppStackSetup.txt file located at vagrant/Manual_provisioning/AppStackSetup.txt. Follow the steps and execute them one by one to set up the application stack manually.
 
 
 --------------------------------------------------
